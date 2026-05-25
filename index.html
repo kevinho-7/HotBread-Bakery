@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Hot Bread Bakery - Fresh bread, cakes, and pastries baked daily in your neighborhood.">
+        <meta name="author" content="Kevin G. Ferreira">
+        <meta name="theme-color" content="#FFD60A">
+        <meta property="og:title" content="Hot Bread Bakery">
+        <meta property="og:description" content="Discover fresh bread, cakes, and pastries every day at Hot Bread Bakery.">
+        <meta property="og:image" content="https://kevinferreira-byui.github.io/wdd231/finalproject/images/hot-bread-logo1.png">
+        <meta property="og:url" content="https://kevinferreira-byui.github.io/wdd231/finalproject/products.html">
+        <meta property="og:type" content="website">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:site_name" content="Hot Bread Bakery">
+        <link rel="icon" href="images/hotB-favicon.ico" type="image/x-icon" sizes="80x80">
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="styles/styles-large.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <script type="module" src="scripts/main.mjs" defer></script>
+        <title>Home | Hot Bread Bakery</title>
+    </head>
+    <body>
+        <header>
+            <section class="header-section">
+                <div class="logo-container">
+                    <button class="hamb-button" id="hambBtn">☰</button>
+                    <button class="close-button hidden" id="closeBtn">X</button>
+                    <img class="logo" src="images/hot-bread-logo2.png" alt="mobile logo" loading="lazy">
+                </div>
+                <div class="nav-container hiddenMenu">
+                    <nav class="nav-menu">
+                        <a href="index.html">Home</a>
+                        <a href="products.html">Products</a>
+                        <a href="about.html">About Us</a>
+                        <a href="contact.html">Contact us</a>
+                    </nav>
+                </div>
+            </section>
+        </header>
+        <main>
+
+            <section class="hero-container">
+                <img class="hero-image" src="images/hero-image.webp" alt="hero image" loading="lazy">
+            </section>
+
+            <section class="cards-container">
+
+                <div class="card-history">
+                    <h1>A little bit of our history</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Suscipit atque enim voluptatibus delectus aut fuga ratione quos, 
+                        ad ipsam esse sequi, officia, saepe tenetur praesentium molestiae laudantium placeat architecto nulla?
+                    </p>
+                </div>
+
+                <div class="card-products">
+                    <h1>Products</h1>
+                    <p>
+                        Our products are the best in quality!
+                    </p>
+                    <button class="products-button" id="cardProdBtn">Learn more</button>
+                    <dialog class="products-modal" id="productModal"></dialog>
+                </div>
+
+                <div class="card-delivery">
+                    <h1>Delivery</h1>
+                    <p>
+                        The Hot Bread Bakery have the best delivery of the neighborhood!!
+                    </p>
+                    <button class="delivery-button">Deliver now</button>
+                </div>
+
+            </section>
+
+        </main>
+        <footer>
+            <section class="contact">
+                <p class="Cname">Hot Bread Bakery</p>
+                <p class="Cphone">+1 385 543-7890</p>
+                <p class="Cemail">hotbread@contact.com</p>
+                <p class="Clocation">190 100 N, Provo, UT 84606, United States</p>
+            </section>
+
+            <section class="socialMedias">
+                <a href="https://www.instagram.com"><img src="images/instagram.png" alt="instagram" loading="lazy"></a>
+                <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook" loading="lazy"></a>
+                <a href="https://www.whatsapp.com"><img src="images/whatsapp.png" alt="WhatsApp" loading="lazy"></a>
+            </section>
+
+            <section class="copyRights">
+                <p>&copy; <span id="currentYear"></span> 🐧 Kevin G. Ferreira 🐧</p>
+                <p><strong>Link to video: </strong><a class="youtubeVideo" target="_blank" href="https://youtu.be/pfHpEAJkLY4">datas/async functions demonstration</a></p>
+                <p id="lastModified"></p>
+            </section>
+        </footer>
+    </body>
+</html>
